@@ -71,7 +71,7 @@
 							"owner": "SecretAgencyClubPenguin",
 							"name": "ClubPenguinClient"
 						},
-						"prerelease": false
+						"prerelease": true
 					}
 				}
 			]
