@@ -25,11 +25,11 @@
 			},
 			"makers": [
 				{
-					"name": "@electron-forge/maker-wix",
+					"name": "@electron-forge/maker-squirrel",
 					"config": {
 						"name": "cpc-windows",
-						"exe": "cpc-windows",
-						"manufacturer": "SecretAgencyClubPenguin"
+						"setupExe": "cpc-windows.exe",
+						"authors": "SecretAgencyClubPenguin"
 					}
 				},
 				{
@@ -112,7 +112,7 @@
 		"@electron-forge/maker-base": "6.0.0-beta.64",
 		"@electron-forge/maker-deb": "^6.0.0-beta.54",
 		"@electron-forge/maker-dmg": "^6.0.0-beta.54",
-		"@electron-forge/maker-wix": "6.0.0-beta.64",
+		"@electron-forge/maker-squirrel": "^6.0.0-beta.54",
 		"@electron-forge/maker-zip": "^6.0.0-beta.54",
 		"@electron-forge/publisher-github": "^6.0.0-beta.54",
 		"electron": "11.1.1"
