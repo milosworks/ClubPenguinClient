@@ -20,10 +20,10 @@ For making the build you will need **OBLIGATORY** to post your client to github,
 1. Install git https://git-scm.com/downloads
 2. Go to https://github.com and create an account
 3. Create a new repository in github (https://docs.github.com/en/get-started/quickstart/create-a-repo)
-4. Open a terminal in your pc, and clone this repository (on your desktop for example) `git clone https://github.com/VyrekXD/ClubPenguinClient`
+4. Open a terminal in your pc, and clone this repository (on your desktop for example) `git clone https://github.com/SecretAgencyClubPenguin/ClubPenguinClient`
 5. Enter the folder of the client
 6. Go to the [config file](./config.json) and edit it (with notepad for example, **DO NOT USE WORD PLEASE**), to see the explanation of each config [click here](#config-file)
-7. Copy the name of the repository you created and your username, you should have something like this **VyrekXD/ClubPenguinClient** and paste it in the "repositoryName" config **DO NOT REMOVE THE "" ON ANYTHING** just put the name inside the "" replacing **VyrekXD/ClubPenguinClient**
+7. Copy the name of the repository you created and your username, you should have something like this **SecretAgencyClubPenguin/ClubPenguinClient** and paste it in the "repositoryName" config **DO NOT REMOVE THE "" ON ANYTHING** just put the name inside the "" replacing **SecretAgencyClubPenguin/ClubPenguinClient**
 8. Open your file explorer and enable the option "show hidden items" on the "View" option
 9. **Use this if you cannot find the "show hidden items" option** You can use the **cmd** and go to the folder of the client using this keybind: **Control + R**, then go to where you download the client, example: `cd desktop/ClubPenguinClient`, then when you are there put this command in your terminal: `rm -rf .git`
 10. Then follow the instructions on here replacing `https://github.com/VyrekXD/test.git` for **YOUR REPOSITORY**, every time you write a command hit enter

@@ -68,7 +68,7 @@
 					"name": "@electron-forge/publisher-github",
 					"config": {
 						"repository": {
-							"owner": "VyrekXD",
+							"owner": "SecretAgencyClubPenguin",
 							"name": "ClubPenguinClient"
 						},
 						"prerelease": false
@@ -87,7 +87,7 @@
 				]
 			}
 		],
-		"appId": "com.cpc.cpc-app",
+		"appId": "com.sacp.cpc-app",
 		"productName": "ClubPenguinClient",
 		"copyright": "Copyright © 2022 ${author}",
 		"win": {
