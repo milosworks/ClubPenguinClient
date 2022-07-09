@@ -1,0 +1,61 @@
+{
+	"app_name": "Secret Agency Club Penguin",
+	"author": "Vyrek",
+	"dependencies": {
+		"discord-rpc": "^4.0.1",
+		"nw": "0.36.4-sdk"
+	},
+	"description": "Club Penguin Client - Made with electron and includes flash player",
+	"devDependencies": {
+		"@types/nw.gui": "^0.0.21"
+	},
+	"license": "Apache-2.0",
+	"main": "src/index.html",
+	"name": "cpc",
+	"nodejs": false,
+	"scripts": {
+		"test": "nw .",
+		"test:local": "\"C:\\Users\\vyrek\\Desktop\\nwjs-sdk-v0.36.4-win-x64\\nw.exe\" ."
+	},
+	"version": "1.0.0",
+	"webexe_settings": {
+		"blacklist": "package-lock.json\nweb2exe.json",
+		"custom_script": "",
+		"download_dir": "",
+		"export_dir": "output",
+		"force_download": false,
+		"linux-x32": false,
+		"linux-x64": false,
+		"mac-x64": false,
+		"nw_compression_level": 0,
+		"nw_version": "0.36.4",
+		"output_pattern": "",
+		"sdk_build": true,
+		"uncompressed_folder": false,
+		"whitelist": "",
+		"windows-x32": false,
+		"windows-x64": false
+	},
+	"webkit": {
+		"double_tap_to_zoom_enabled": false,
+		"plugin": true
+	},
+	"window": {
+		"exe_icon": "icon.png",
+		"frame": true,
+		"fullscreen": false,
+		"height": 1080,
+		"icon": "icon.png",
+		"id": "Secret Agency Club Penguin",
+		"min_height": 600,
+		"min_width": 800,
+		"position": "center",
+		"resizable": true,
+		"show": true,
+		"show_in_taskbar": true,
+		"title": "Secret Agency Club Penguin",
+		"visible": true,
+		"width": 1920
+	}
+}
+
