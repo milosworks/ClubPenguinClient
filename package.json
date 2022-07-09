@@ -1,0 +1,121 @@
+{
+	"name": "cpc",
+	"productName": "ClubPenguinClient",
+	"version": "1.0.1",
+	"description": "Club Penguin Client - Made with electron and includes flash player",
+	"main": "src/main.js",
+	"scripts": {
+		"start": "electron-forge start",
+		"package": "electron-forge package",
+		"make": "electron-forge make",
+		"publish": "electron-forge publish",
+		"publish-windows": "electron-forge publish",
+		"publish-git": "electron-forge publish"
+	},
+	"keywords": [],
+	"authors": [
+		"Vyrek",
+		"EmperorBale"
+	],
+	"license": "Apache-2.0",
+	"config": {
+		"forge": {
+			"packagerConfig": {
+				"icon": "lib/icons/icon.icns"
+			},
+			"makers": [
+				{
+					"name": "@electron-forge/maker-squirrel",
+					"config": {
+						"name": "cpc",
+						"authors": "cpc"
+					}
+				},
+				{
+					"name": "@electron-forge/maker-zip",
+					"platforms": [
+						"darwin"
+					]
+				},
+				{
+					"name": "@electron-forge/maker-dmg",
+					"config": {
+						"format": "ULFO"
+					}
+				},
+				{
+					"name": "@electron-forge/maker-deb",
+					"config": {}
+				},
+				{
+					"name": "@electron-forge/maker-rpm",
+					"config": {}
+				},
+				{
+					"name": "@electron-forge/maker-flatpak",
+					"config": {
+						"genericName": "cpc",
+						"productName": "cpc",
+						"categories": [
+							"Game"
+						],
+						"icon": "./lib/icons/icon.ico"
+					}
+				}
+			],
+			"publishers": [
+				{
+					"name": "@electron-forge/publisher-github",
+					"config": {
+						"repository": {
+							"owner": "VyrekXD",
+							"name": "ClubPenguinClient"
+						},
+						"prerelease": false
+					}
+				}
+			]
+		}
+	},
+	"build": {
+		"extraResources": [
+			{
+				"from": "./lib/",
+				"to": "lib",
+				"filter": [
+					"**/*"
+				]
+			}
+		],
+		"appId": "com.cpc.cpc-app",
+		"productName": "ClubPenguinClient",
+		"copyright": "Copyright © 2022 ${author}",
+		"win": {
+			"icon": "./lib/icons/icon.png"
+		},
+		"directories": {
+			"buildResources": "lib"
+		}
+	},
+	"dependencies": {
+		"@electron-forge/maker-flatpak": "^6.0.0-beta.64",
+		"async-dialog": "0.0.1",
+		"dialogs": "^2.0.1",
+		"discord-rpc": "^4.0.1",
+		"electron-prompt": "^1.6.0",
+		"update-electron-app": "^2.0.1"
+	},
+	"devDependencies": {
+		"@electron-forge/cli": "^6.0.0-beta.54",
+		"@electron-forge/maker-appx": "^6.0.0-beta.54",
+		"@electron-forge/maker-base": "6.0.0-beta.64",
+		"@electron-forge/maker-deb": "^6.0.0-beta.54",
+		"@electron-forge/maker-dmg": "^6.0.0-beta.54",
+		"@electron-forge/maker-rpm": "^6.0.0-beta.54",
+		"@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+		"@electron-forge/maker-zip": "^6.0.0-beta.54",
+		"@electron-forge/publisher-github": "^6.0.0-beta.54",
+		"electron": "11.1.1"
+	}
+}
+
