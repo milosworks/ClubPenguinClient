@@ -1,7 +1,7 @@
 {
 	"name": "cpc",
 	"productName": "",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Club Penguin Client - Made with electron and includes flash player",
 	"main": "src/main.js",
 	"scripts": {
@@ -27,8 +27,9 @@
 				{
 					"name": "@electron-forge/maker-squirrel",
 					"config": {
-						"name": "clubpenguinclient",
-						"authors": "clubpenguinclient"
+						"name": "cpc-windows",
+						"setupExe": "cpc-windows",
+						"authors": "SecretAgencyClubPenguin"
 					}
 				},
 				{
@@ -40,22 +41,21 @@
 				{
 					"name": "@electron-forge/maker-dmg",
 					"config": {
-						"format": "ULFO"
+						"format": "ULFO",
+						"name": "cpc-macOS"
 					}
 				},
 				{
 					"name": "@electron-forge/maker-deb",
-					"config": {}
-				},
-				{
-					"name": "@electron-forge/maker-rpm",
-					"config": {}
+					"config": {
+						"name": "cpc-linuxDebian"
+					}
 				},
 				{
 					"name": "@electron-forge/maker-flatpak",
 					"config": {
-						"genericName": "clubpenguinclient",
-						"productName": "clubpenguinclient",
+						"genericName": "cpc-linuxSandbox",
+						"productName": "cpc-linuxSandbox",
 						"categories": [
 							"Game"
 						],
@@ -71,7 +71,7 @@
 							"owner": "SecretAgencyClubPenguin",
 							"name": "ClubPenguinClient"
 						},
-						"prerelease": true,
+						"prerelease": false,
 						"draft": false
 					}
 				}
@@ -112,7 +112,6 @@
 		"@electron-forge/maker-base": "6.0.0-beta.64",
 		"@electron-forge/maker-deb": "^6.0.0-beta.54",
 		"@electron-forge/maker-dmg": "^6.0.0-beta.54",
-		"@electron-forge/maker-rpm": "^6.0.0-beta.54",
 		"@electron-forge/maker-squirrel": "^6.0.0-beta.54",
 		"@electron-forge/maker-zip": "^6.0.0-beta.54",
 		"@electron-forge/publisher-github": "^6.0.0-beta.54",
