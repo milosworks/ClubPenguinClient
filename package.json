@@ -1,6 +1,6 @@
 {
 	"name": "cpc",
-	"productName": "ClubPenguinClient",
+	"productName": "",
 	"version": "1.0.1",
 	"description": "Club Penguin Client - Made with electron and includes flash player",
 	"main": "src/main.js",
