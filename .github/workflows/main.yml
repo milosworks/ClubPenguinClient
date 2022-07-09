@@ -1,4 +1,4 @@
-name: Build CPC-APP
+name: Build ClubPenguinClient App
 
 # Controls when the action will run.
 on:
