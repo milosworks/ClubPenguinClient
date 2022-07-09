@@ -5,6 +5,12 @@ const config = require('../config.json')
 
 require('update-electron-app')({ repo: config.repositoryName })
 
+if (require('electron-squirrel-startup')) {
+	app.quit()
+
+	return
+}
+
 const appStart = Date.now()
 const discordApplicationId = config.discordRpc.discordAppId
 const mainURL = config.mainURL
