@@ -69,7 +69,7 @@
 					"config": {
 						"repository": {
 							"owner": "SecretAgencyClubPenguin",
-							"name": "ClubPenguinClientApp"
+							"name": "ClubPenguinClient"
 						},
 						"prerelease": true
 					}
