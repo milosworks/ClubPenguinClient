@@ -10,9 +10,9 @@ This club penguin client is a "flash port" for people like me that want a privat
 
 # Special thanks
 
-Thanks a lot for the "base" ~~its practically all the code but anyways~~ EmperorBale
+Thanks a lot for the "base" ~~its practically all the code but anyways~~ to the NewCP Team
 
-Repo: https://github.com/EmperorBale/NewCP-App
+Repo: https://github.com/New-Club-Penguin/NewCP-App
 
 # Making the build
 
