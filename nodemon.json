@@ -1,0 +1,9 @@
+{
+	"restartable": "r",
+	"ignore": [".git", "node_modules/**/node_modules"],
+	"watch": ["src/**/*"],
+	"execMap": {
+		"js": "electron ."
+	},
+	"ext": "ts"
+}
