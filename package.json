@@ -50,7 +50,8 @@
 				{
 					"name": "@electron-forge/maker-deb",
 					"config": {
-						"name": "cpc-linuxDebian"
+						"name": "cpc-linuxDebian",
+						"version": "latest"
 					}
 				},
 				{
