@@ -1,7 +1,7 @@
 {
 	"name": "cpc",
 	"productName": "",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Club Penguin Client - Made with electron and includes flash player",
 	"main": "src/main.js",
 	"scripts": {
@@ -30,7 +30,8 @@
 						"name": "cpc-windows",
 						"setupExe": "cpc-windows.exe",
 						"authors": "SecretAgencyClubPenguin",
-						"title": "Secret Agency - Club Penguin Client"
+						"title": "Secret Agency - Club Penguin Client",
+						"iconUrl": "https://play.vyrek.dev/assets/clienticon.ico"
 					}
 				},
 				{
