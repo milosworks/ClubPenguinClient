@@ -28,7 +28,7 @@
 					"name": "@electron-forge/maker-squirrel",
 					"config": {
 						"name": "cpc-windows",
-						"setupExe": "cpc-windows.exe",
+						"exe": "ClubPenguinClient.exe",
 						"authors": "SecretAgencyClubPenguin",
 						"title": "Secret Agency - Club Penguin Client",
 						"iconUrl": "https://play.vyrek.dev/assets/clienticon.ico"
