@@ -29,7 +29,8 @@
 					"config": {
 						"name": "cpc-windows",
 						"setupExe": "cpc-windows.exe",
-						"authors": "SecretAgencyClubPenguin"
+						"authors": "SecretAgencyClubPenguin",
+						"title": "Secret Agency - Club Penguin Client"
 					}
 				},
 				{
