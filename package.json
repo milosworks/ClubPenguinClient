@@ -1,5 +1,5 @@
 {
-	"name": "cpc",
+	"name": "club-penguin-client",
 	"productName": "",
 	"version": "1.1.2",
 	"description": "Club Penguin Client - Made with electron and includes flash player",
@@ -28,7 +28,6 @@
 					"name": "@electron-forge/maker-squirrel",
 					"config": {
 						"name": "cpc-windows",
-						"exe": "ClubPenguinClient.exe",
 						"authors": "SecretAgencyClubPenguin",
 						"title": "Secret Agency - Club Penguin Client",
 						"iconUrl": "https://play.vyrek.dev/assets/clienticon.ico"
