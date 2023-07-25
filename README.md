@@ -20,16 +20,19 @@ For making the build you will need **OBLIGATORY** to post your client to github,
 
 1. Install git https://git-scm.com/downloads
 2. Go to https://github.com and create an account
-3. Create a new repository in github (https://docs.github.com/en/get-started/quickstart/create-a-repo)
-4. Open a terminal in your pc, and clone this repository (on your desktop for example) `git clone https://github.com/SecretAgencyClubPenguin/ClubPenguinClient`
+3. Open a terminal in your pc, and clone this repository (on your desktop for example) `git clone https://github.com/SecretAgencyClubPenguin/ClubPenguinClient`
+4. **IMPORTANT** When you clone the repository, go to (Your repository) > Actions > Enable Workflows (Only if you see the message if not, ignore this step)
 5. Enter the folder of the client
 6. Go to the [config file](./config.json) and edit it (with notepad for example, **DO NOT USE WORD PLEASE**), to see the explanation of each config [click here](#config-file)
 7. Copy the name of the repository you created and your username, you should have something like this **SecretAgencyClubPenguin/ClubPenguinClient** and paste it in the "repositoryName" config **DO NOT REMOVE THE "" ON ANYTHING** just put the name inside the "" replacing **SecretAgencyClubPenguin/ClubPenguinClient**
-8. Open your file explorer and enable the option "show hidden items" on the "View" option
-9. **Use this if you cannot find the "show hidden items" option** You can use the **cmd** and go to the folder of the client using this keybind: **Control + R**, then go to where you download the client, example: `cd desktop/ClubPenguinClient`, then when you are there put this command in your terminal: `rm -rf .git`
-10. Then follow the instructions on here replacing `https://github.com/VyrekXD/test.git` for **YOUR REPOSITORY**, every time you write a command hit enter
-    ![](https://cdn.upload.systems/uploads/U9hAkWif.png)
-11. If you follow these instructions correctly, if you go to the "Actions" part on your repository some "workflow" should be executing and you should be able to download the executable of your client
+8. Create a personal access token [click here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic), read that instructions then when you have it in your repository go to **Settings > Secrets and Variables > Actions > New Repository Secret**, set the name exactly this `BUILD_TOKEN`, and in the space where it says **secret** put your token. **DO NOT SHARE THIS TOKEN**
+9. Now just use this commands inside the folder of your client (hit enter for each command do not put them in the same line)
+    ```sh
+    	git add .
+    	git commit -m "New"
+    	git push origin main
+    ```
+10. If you follow these instructions correctly, if you go to the "Actions" part on your repository some "workflow" should be executing and you should be able to download the executable of your client
 
 # Config file
 
